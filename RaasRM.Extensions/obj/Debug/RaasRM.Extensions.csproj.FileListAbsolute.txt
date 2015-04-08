@@ -1,0 +1,10 @@
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\RaasRM.Extensions.dll.config
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\RaasRM.Extensions.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\RaasRM.Extensions.pdb
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\EntityFramework.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\EntityFramework.SqlServer.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\EntityFramework.xml
+C:\github\RaasRM.Extensions\RaasRM.Extensions\bin\Debug\EntityFramework.SqlServer.xml
+C:\github\RaasRM.Extensions\RaasRM.Extensions\obj\Debug\RaasRM.Extensions.csprojResolveAssemblyReference.cache
+C:\github\RaasRM.Extensions\RaasRM.Extensions\obj\Debug\RaasRM.Extensions.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions\obj\Debug\RaasRM.Extensions.pdb

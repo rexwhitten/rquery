@@ -1,0 +1,15 @@
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\obj\Debug\RaasRM.Extensions.Test.csprojResolveAssemblyReference.cache
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\Db\TestDb.mdf
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\TestDb.mdf
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\TestDb_log.ldf
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\RaasRM.Extensions.Test.dll.config
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\RaasRM.Extensions.Test.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\RaasRM.Extensions.Test.pdb
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\EntityFramework.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\RaasRM.Extensions.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\RaasRM.Extensions.pdb
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\EntityFramework.xml
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\obj\Debug\RaasRM.Extensions.Test.dll
+C:\github\RaasRM.Extensions\RaasRM.Extensions.Test\obj\Debug\RaasRM.Extensions.Test.pdb

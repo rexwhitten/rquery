@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Content">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HeaderId" Type="Int32" Nullable="false" />
+    <Property Name="Path" Type="String" MaxLength="512" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Header" Relationship="Self.HeaderContent" FromRole="Content" ToRole="Header" />
+  </EntityType>
+  <EntityType Name="Header">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PublicId" Type="Guid" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdateDate" Type="DateTime" Precision="3" />
+    <Property Name="Active" Type="Boolean" />
+    <NavigationProperty Name="Contents" Relationship="Self.HeaderContent" FromRole="Header" ToRole="Content" />
+  </EntityType>
+  <Association Name="HeaderContent">
+    <End Role="Header" Type="Self.Header" Multiplicity="1" />
+    <End Role="Content" Type="Self.Content" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Header">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Content">
+        <PropertyRef Name="HeaderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TestDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Contents" EntityType="Self.Content" />
+    <EntitySet Name="Headers" EntityType="Self.Header" />
+    <AssociationSet Name="HeaderContent" Association="Self.HeaderContent">
+      <End Role="Header" EntitySet="Headers" />
+      <End Role="Content" EntitySet="Contents" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
